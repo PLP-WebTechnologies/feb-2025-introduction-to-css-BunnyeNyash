@@ -1,0 +1,97 @@
+/* Import Google Font for typography */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Element Selector: Style all h1 elements */
+h1 {
+    color: #2c3e50;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 2px solid #3498db;
+}
+
+/* Class Selector: Style elements with class="intro-text" */
+.intro-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: #34495e;
+    text-align: center;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+
+/* ID Selector: Style the main content section */
+#main-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Element Selector: Style all h2 elements */
+h2 {
+    color: #2980b9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+/* Element Selector: Style all p elements */
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #333;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Class Selector: Style highlighted paragraphs */
+.highlight {
+    background-color: #fff3cd;
+    padding: 10px;
+    border-left: 4px solid #f1c40f;
+}
+
+/* Class Selector: Style the featured image */
+.featured-image {
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    border: 3px solid #3498db;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Class Selector: Style the action button */
+.action-button {
+    background-color: #e74c3c;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #c0392b;
+}
+
+/* Element Selector: Style the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    font-family: 'Roboto', sans-serif;
+    color: #7f8c8d;
+}
